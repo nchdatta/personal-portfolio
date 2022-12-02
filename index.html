@@ -9,12 +9,13 @@
   <script src="https://kit.fontawesome.com/dcaf69cdd3.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="w-full lg:w-2/3 mx-auto dark:bg-gray-900">
+<body class="w-full lg:w-2/3 mx-auto dark:bg-gray-900 relative">
   <header>
     <!-- Navbar -->
-    <nav class="px-2 sm:px-4 py-2 lg:py-0">
+    <nav
+      class="px-2 sm:px-4 py-2 border-b lg:border-none border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-900 w-full lg:w-2/3 fixed top-0 z-20">
       <div class="container flex flex-row-reverse lg:flex-row flex-wrap items-center justify-between mx-auto">
-        <a href="#" class="text-gray-700 dark:text-white font-bold">NCD</a>
+        <a href="#" class="text-gray-700 dark:text-white font-bold" title="Nayan Chandra Datta">NCD</a>
 
         <button data-collapse-toggle="navbar" type="button"
           class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -29,12 +30,13 @@
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar">
           <ul
-            class="flex flex-col items-start lg:items-center p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+            class="flex flex-col items-start lg:items-center mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
             <li><a href="#"
-                class="block py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 lg:hover:bg-white rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                class="block py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 md:hover:bg-transparent lg:hover:bg-white rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:hover:bg-transparent"
                 aria-current="page">Home</a>
             </li>
-            <li><a href="#"
+            <li><a href="https://drive.google.com/file/d/1pNBgtXq-kz2XEm873_nQpsNIMOuAZb2a/view?usp=sharing"
+                target="_blank"
                 class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Resume</a>
             </li>
             <li><a href="#"
@@ -63,7 +65,7 @@
     </nav>
   </header>
 
-  <main class="px-4 lg:px-8">
+  <main class="px-4 lg:px-8 pt-16">
     <section class="py-6 lg:py-14">
       <div class="container flex flex-col lg:flex-row items-start justify-start">
         <!-- Main content left -->
@@ -80,7 +82,7 @@
             <h2 class="text-md font-normal text-gray-800 dark:text-gray-400 mt-2">MERN, Full-Stack Web Developer.</h2>
 
             <div class="flex mt-6">
-              <a href="#"
+              <a href="https://www.facebook.com/nchdatta1"
                 class="flex items-center mr-2 font-light text-gray-600 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path fill-rule="evenodd"
@@ -90,16 +92,16 @@
                 <span>/nchdatta1</span>
                 <span class="sr-only">Facebook page</span>
               </a>
-              <a href="#"
+              <a href="https://twitter.com/nchdatta"
                 class="flex items-center mr-2 font-light text-gray-600 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path
                     d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                 </svg>
-                <span>/nchdatta1</span>
+                <span>/nchdatta</span>
                 <span class="sr-only">Twitter page</span>
               </a>
-              <a href="#"
+              <a href="https://github.com/nchdatta"
                 class="flex items-center mr-2 font-light text-gray-600 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path fill-rule="evenodd"
@@ -114,27 +116,27 @@
             <div class="my-4">
               <button type="button"
                 class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-gray-200 dark:border-gray-800 dark:hover:bg-gray-700 dark:hover:border-gray-700">
-                <i class="fa-solid fa-desktop fa-sm mr-1 text-blue-300"></i>
-                Web Dev.</button>
+                <i class="fa-solid fa-desktop fa-sm mr-1 text-blue-700"></i>
+                Web Developer</button>
               <button type="button"
                 class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-gray-200 dark:border-gray-800 dark:hover:bg-gray-700 dark:hover:border-gray-700">
-                <i class="fa-solid fa-code fa-sm mr-1 text-blue-600"></i>
+                <i class="fa-solid fa-code fa-sm mr-1 text-blue-400"></i>
                 React Developer</button>
               <button type="button"
                 class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-gray-200 dark:border-gray-800 dark:hover:bg-gray-700 dark:hover:border-gray-700">
-                <i class="fa-solid fa-code fa-sm mr-1 text-blue-600"></i>
+                <i class="fa-solid fa-code fa-sm mr-1 text-green-600"></i>
                 Node</button>
               <button type="button"
                 class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-gray-200 dark:border-gray-800 dark:hover:bg-gray-700 dark:hover:border-gray-700">
-                <i class="fa-solid fa-terminal fa-sm mr-1 text-blue-300"></i>
+                <i class="fa-solid fa-terminal fa-sm mr-1 text-orange-500"></i>
                 MERN</button>
               <button type="button"
                 class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-gray-200 dark:border-gray-800 dark:hover:bg-gray-700 dark:hover:border-gray-700">
-                <i class="fa-solid fa-terminal fa-sm mr-1 text-blue-300"></i>
+                <i class="fa-solid fa-terminal fa-sm mr-1 text-blue-600"></i>
                 Material UI</button>
               <button type="button"
                 class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-gray-200 dark:border-gray-800 dark:hover:bg-gray-700 dark:hover:border-gray-700">
-                <i class="fa-solid fa-people-group fa-sm mr-1 text-blue-300"></i>
+                <i class="fa-solid fa-people-group fa-sm mr-1 text-green-500"></i>
                 Collaborate</button>
             </div>
           </div>
@@ -168,12 +170,14 @@
                   <div class="flex items-center">
                     <time
                       class="mb-1 mr-3 px-3 py-2 rounded-md leading-none text-gray-100 bg-blue-500 dark:bg-gray-600">2022</time>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-200">Full Stack Web Development</h3>
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-200">Full Stack Web Development
+                      <a href="https://web.programming-hero.com/" target="_blank" class="ml-3"><i
+                          class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
+                    </h3>
                   </div>
                   <p class="mb-3 text-base font-normal text-gray-800 dark:text-gray-400">Complete web
                     development course
-                    which included from HTML JavaScript, React, Node/Expressjs, database as MongoDB and other
-                    technolgies.</p>
+                    which included HTML to JavaScript, React, Node/Expressjs, MongoDB etc.</p>
                   <p class="text-base font-light text-gray-800 dark:text-gray-400">
                     <span title="Programming Hero">PHero</span> &bull; Jun 2021 - December 2021
                   </p>
@@ -186,7 +190,10 @@
                     <time
                       class="mb-1 mr-3 px-3 py-2 rounded-md text-sm font-normal leading-none  text-gray-100 bg-blue-500 dark:bg-gray-600">2020</time>
                     <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-200">BSc. in Computer Science &
-                      Engineering (CSE)</h3>
+                      Engineering (CSE)
+                      <a href="https://daffodilvarsity.edu.bd/" target="_blank" class="ml-3"><i
+                          class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
+                    </h3>
                   </div>
                   <p class="mb-3 text-base font-normal text-gray-800 dark:text-gray-400">Achieved four
                     years
@@ -206,6 +213,8 @@
                       class="mb-1 mr-3 px-3 py-2 rounded-md text-sm font-normal leading-none  text-gray-100 bg-blue-500 dark:bg-gray-600">2014</time>
                     <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-200">Higher Secondary School
                       Certificate
+                      <a href="http://bc.gov.bd/" target="_blank" class="ml-3"><i
+                          class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a>
                     </h3>
                   </div>
                   <p class="mb-3 text-base font-normal text-gray-800 dark:text-gray-400">Achieved two years
@@ -352,10 +361,10 @@
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-3">
               <div class="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
-                  <img class="rounded-t-lg" src="/images/proj1.png" alt="Personal Portfolio" />
+                <a href="https://github.com/nchdatta/personal-portfolio" target="_blank">
+                  <img class="rounded-t-lg" src="/images/personal-portfolio.png" alt="Personal Portfolio" />
                 </a>
-                <div class="p-3 border-t">
+                <div class="p-3 border-t border-gray-100 dark:border-gray-600">
                   <h5 class="text-xl font-semibold text-gray-900 dark:text-gray-200">Personal
                     Portfolio
                   </h5>
@@ -364,15 +373,15 @@
                   <div class="my-4 flex flex-wrap">
                     <button type="button"
                       class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
-                      HTML</button>
-                    <button type="button"
-                      class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
-                      CSS</button>
+                      Tailwind</button>
                     <button type="button"
                       class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
                       JS</button>
+                    <button type="button"
+                      class="hidden text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
+                      Vite</button>
                   </div>
-                  <a href="#"
+                  <a href="https://github.com/nchdatta/personal-portfolio" target="_blank"
                     class="w-full inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center rounded-lg text-white bg-blue-500 hover:bg-blue-600 dark:text-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600">
                     Read more
                     <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
@@ -385,27 +394,25 @@
                 </div>
               </div>
               <div class="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
-                  <img class="rounded-t-lg" src="/images/proj1.png" alt="Personal Portfolio" />
+                <a href="https://github.com/nchdatta/doctors-portal-client" target="_blank">
+                  <img class="rounded-t-lg" src="/images/doctors-portal.png" alt="Doctors Portal" />
                 </a>
-                <div class="p-3 border-t">
-                  <h5 class="text-xl font-semibold text-gray-900 dark:text-gray-200">Personal
-                    Portfolio
+                <div class="p-3 border-t border-gray-100 dark:border-gray-600">
+                  <h5 class="text-xl font-semibold text-gray-900 dark:text-gray-200">Doctors Portal
                   </h5>
-                  <p class="font-light text-gray-800 dark:text-gray-400">Professional page for personal portfolio
-                    showcase.</p>
+                  <p class="font-light text-gray-800 dark:text-gray-400">Doctors appointment booking website.</p>
                   <div class="my-4 flex flex-wrap">
                     <button type="button"
                       class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
-                      HTML</button>
+                      React</button>
                     <button type="button"
                       class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
-                      CSS</button>
+                      Node</button>
                     <button type="button"
-                      class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
+                      class="hidden text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
                       JS</button>
                   </div>
-                  <a href="#"
+                  <a href="https://github.com/nchdatta/doctors-portal-client" target="_blank"
                     class="w-full inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center rounded-lg text-white bg-blue-500 hover:bg-blue-600 dark:text-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600">
                     Read more
                     <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
@@ -418,27 +425,25 @@
                 </div>
               </div>
               <div class="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
-                  <img class="rounded-t-lg" src="/images/proj1.png" alt="Personal Portfolio" />
+                <a href="https://github.com/nchdatta/digital-marketing-solution" target="_blank">
+                  <img class="rounded-t-lg w-full" src="/images/digital-marketing.png" alt="Digital Marketing" />
                 </a>
-                <div class="p-3 border-t">
-                  <h5 class="text-xl font-semibold text-gray-900 dark:text-gray-200">Personal
-                    Portfolio
+                <div class="p-3 border-t border-gray-100 dark:border-gray-600">
+                  <h5 class="text-xl font-semibold text-gray-900 dark:text-gray-200">Digital Marketing Sol.
                   </h5>
-                  <p class="font-light text-gray-800 dark:text-gray-400">Professional page for personal portfolio
-                    showcase.</p>
+                  <p class="font-light text-gray-800 dark:text-gray-400">Professional page for digital marketing.</p>
                   <div class="my-4 flex flex-wrap">
                     <button type="button"
                       class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
-                      HTML</button>
-                    <button type="button"
-                      class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
-                      CSS</button>
+                      BS5</button>
                     <button type="button"
                       class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
                       JS</button>
+                    <button type="button"
+                      class="hidden text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
+                      JS</button>
                   </div>
-                  <a href="#"
+                  <a href="https://github.com/nchdatta/digital-marketing-solution" target="_blank"
                     class="w-full inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center rounded-lg text-white bg-blue-500 hover:bg-blue-600 dark:text-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600">
                     Read more
                     <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
@@ -459,11 +464,11 @@
   </main>
 
   <!-- Footer area  -->
-  <footer class="p-4 border-t border-gray-100 dark:border-gray-800 md:flex md:items-center md:justify-between md:p-6">
+  <footer class="border-t border-gray-100 dark:border-gray-800 flex flex-wrap items-center justify-between p-6">
     <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="#"
-        class="hover:underline">Nayan Chandra Datta</a>. All Rights Reserved.
+        class="hover:underline">Nayan Chandra Datta</a>
     </span>
-    <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+    <ul class="flex flex-wrap items-center text-sm text-gray-500 dark:text-gray-400">
       <li>
         <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
       </li>
