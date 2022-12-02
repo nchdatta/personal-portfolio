@@ -12,11 +12,12 @@
 <body class="w-full lg:w-2/3 mx-auto dark:bg-gray-900">
   <header>
     <!-- Navbar -->
-    <nav class="px-2 sm:px-4 dark:bg-gray-900">
+    <nav class="px-2 sm:px-4 py-2 lg:py-0">
       <div class="container flex flex-row-reverse lg:flex-row flex-wrap items-center justify-between mx-auto">
-        <a href="#" class="text-gray-700 dark:text-white font-bold">Nayan Datta</a>
+        <a href="#" class="text-gray-700 dark:text-white font-bold">NCD</a>
+
         <button data-collapse-toggle="navbar" type="button"
-          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-controls="navbar" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
           <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
@@ -28,9 +29,9 @@
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar">
           <ul
-            class="flex flex-col items-center p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            class="flex flex-col items-start lg:items-center p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
             <li><a href="#"
-                class="block py-2 pl-3 pr-4 text-gray-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                class="block py-2 pl-3 pr-4 text-blue-700 hover:bg-gray-100 lg:hover:bg-white rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                 aria-current="page">Home</a>
             </li>
             <li><a href="#"
@@ -41,9 +42,8 @@
                 class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Resume</a>
             </li>
             <li>
-              <!-- Toggle dark  -->
               <button id="theme-toggle" type="button"
-                class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5">
+                class=" text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-sm p-2.5">
                 <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
@@ -64,8 +64,8 @@
   </header>
 
   <main class="px-8">
-    <section class="my-14">
-      <div class="container flex flex-row items-start justify-start">
+    <section class="py-14">
+      <div class="container flex flex-col lg:flex-row items-start justify-start">
         <!-- Main content left -->
         <div class="pr-8">
           <img class="rounded-full" src="./images/nayan.png" alt="Nayan">
@@ -131,7 +131,6 @@
           <div class="objective mb-16">
             <div class="flex items-center">
               <h1 class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mr-2">Career Objective</h1>
-              <hr class="w-3/4 h-px bg-gray-200 border-0 dark:bg-gray-700">
             </div>
             <p class="text-gray-600 dark:text-gray-100 text-justify mt-3">A motivated individual with in-depth
               knowledge
@@ -140,12 +139,12 @@
               position as a Web Developer in a growth-oriented company where I can use my skills to the advantage of the
               company while having the scope to develop my own skills.</p>
           </div>
+          <hr class="my-8 h-px bg-gray-100 border-0 dark:bg-gray-700">
 
-          <!-- Qualification -->
+          <!-- Qualifications -->
           <div class="qualification mb-16">
             <div class="flex items-center">
-              <h1 class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mr-2">Qualification</h1>
-              <hr class="w-3/4 h-px bg-gray-200 border-0 dark:bg-gray-700">
+              <h1 class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mr-2">Qualifications</h1>
             </div>
             <div class="w-3/4">
               <ol class="relative border-l border-gray-200 dark:border-gray-700 mt-6">
@@ -206,10 +205,241 @@
             </div>
 
           </div>
+          <hr class="my-8 h-px bg-gray-100 border-0 dark:bg-gray-700">
+
+          <!-- My Skill  -->
+          <div class="mb-16">
+            <div class="flex items-center mb-3">
+              <h1 class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mr-2">Tech Skills</h1>
+            </div>
+            <div class="grid grid-cols-2 gap-6">
+              <div>
+                <h2 class="text-xl font-medium text-gray-900 dark:text-gray-100 mb-2">Languages</h2>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-brands fa-square-js"></i>
+                  JavaScript
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Expert</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-brands fa-html5 fa-lg"></i> HTML5
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Expert</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-brands fa-css3-alt fa-lg"></i> CSS3
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Expert</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-brands fa-php fa-sm"></i> PHP
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Junior</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-brands fa-markdown fa-2xs"></i>
+                  Markdown
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Junior</code>
+                </p>
+              </div>
+              <div>
+                <h2 class="text-xl font-medium text-gray-900 dark:text-gray-100 mb-2">Front-end</h2>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-brands fa-react"></i>
+                  React
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Expert</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-solid fa-fire"></i> Firebase
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Expert</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-brands fa-bootstrap"></i> Bootstrap
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Expert</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-solid fa-code"></i> Tailwind
+                  CSS
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Expert</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-solid fa-code"></i> JQuary
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Intermediate</code>
+                </p>
+              </div>
+              <div>
+                <h2 class="text-xl font-medium text-gray-900 dark:text-gray-100 mb-2">Back-end</h2>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-brands fa-node fa-sm"></i>
+                  Node.js
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Expert</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-brands fa-node-js"></i> Express.js
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Expert</code>
+                </p>
+              </div>
+              <div>
+                <h2 class="text-xl font-medium text-gray-900 dark:text-gray-100 mb-2">Database</h2>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-solid fa-server"></i>
+                  MongoDB
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Expert</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-solid fa-server"></i> MySql
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Intermediate</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-solid fa-server"></i> Mongoose
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Expert</code>
+                </p>
+              </div>
+              <div>
+                <h2 class="text-xl font-medium text-gray-900 dark:text-gray-100 mb-2">Dev Tools</h2>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-brands fa-git"></i>
+                  Git
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Expert</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-brands fa-github"></i> GitHub
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Expert</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-sharp fa-solid fa-laptop-code"></i> VS
+                  Code
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Expert</code>
+                </p>
+              </div>
+              <div>
+                <h2 class="text-xl font-medium text-gray-900 dark:text-gray-100 mb-2">Design Tools</h2>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-solid fa-bezier-curve"></i>
+                  Adobe Photoshop
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Intermediate</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-solid fa-bezier-curve"></i>
+                  Adobe Illustrator
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Junior</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-brands fa-figma"></i> Figma
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Junior</code>
+                </p>
+                <p class="text-lg text-gray-900 dark:text-gray-100"><i class="fa-solid fa-file-powerpoint"></i> MS
+                  PowerPoint
+                  <code class="text-sm text-gray-500 dark:text-gray-200">Expert</code>
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr class="my-8 h-px bg-gray-100 border-0 dark:bg-gray-700">
+
+          <!-- Recent works  -->
+          <div class="mb-16">
+            <div class="flex items-center mb-4">
+              <h1 class="text-2xl font-semibold text-gray-900 dark:text-gray-100 mr-2">Recent works</h1>
+            </div>
+            <div class="grid grid-cols-3 gap-3">
+              <div class="max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                  <img class="rounded-t-lg" src="/images/proj1.png" alt="Personal Portfolio" />
+                </a>
+                <div class="p-3 border-t">
+                  <a href="#">
+                    <h5 class="mb-2 text-xl font-semibold text-gray-900 dark:text-white">Personal
+                      Portfolio
+                    </h5>
+                  </a>
+                  <div class="my-4 flex flex-wrap">
+                    <button type="button"
+                      class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
+                      HTML</button>
+                    <button type="button"
+                      class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
+                      CSS</button>
+                    <button type="button"
+                      class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
+                      JS</button>
+                  </div>
+                  <a href="#"
+                    class="mr-3 w-full inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Read more
+                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                  <img class="rounded-t-lg" src="/images/proj1.png" alt="Personal Portfolio" />
+                </a>
+                <div class="p-3 border-t">
+                  <a href="#">
+                    <h5 class="mb-2 text-xl font-semibold text-gray-900 dark:text-white">Personal
+                      Portfolio
+                    </h5>
+                  </a>
+                  <div class="my-4 flex flex-wrap">
+                    <button type="button"
+                      class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
+                      HTML</button>
+                    <button type="button"
+                      class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
+                      CSS</button>
+                    <button type="button"
+                      class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
+                      JS</button>
+                  </div>
+                  <a href="#"
+                    class="mr-3 w-full inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Read more
+                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
+                <a href="#">
+                  <img class="rounded-t-lg" src="/images/proj1.png" alt="Personal Portfolio" />
+                </a>
+                <div class="p-3 border-t">
+                  <a href="#">
+                    <h5 class="mb-2 text-xl font-semibold text-gray-900 dark:text-white">Personal
+                      Portfolio
+                    </h5>
+                  </a>
+                  <div class="my-4 flex flex-wrap">
+                    <button type="button"
+                      class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
+                      HTML</button>
+                    <button type="button"
+                      class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
+                      CSS</button>
+                    <button type="button"
+                      class="text-gray-900 bg-gray-100 border border-gray-100  hover:bg-gray-50 font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-700 dark:hover:bg-gray-600 dark:hover:border-gray-600">
+                      JS</button>
+                  </div>
+                  <a href="#"
+                    class="mr-3 w-full inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Read more
+                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
       </div>
     </section>
   </main>
+
+  <!-- Footer area  -->
+  <footer class="p-4 border-t border-gray-100 dark:border-gray-700 md:flex md:items-center md:justify-between md:p-6">
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="#"
+        class="hover:underline">Nayan Chandra Datta</a>. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+      <li>
+        <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+      </li>
+      <li>
+        <a href="#" class="hover:underline">Back to top <i class="fa-solid fa-arrow-turn-up"></i></a>
+      </li>
+    </ul>
+  </footer>
+
 
   <script type="module" src="/main.js"></script>
 </body>
