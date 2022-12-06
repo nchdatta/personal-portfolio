@@ -1,6 +1,6 @@
 
 # Personal Portfolio
-![Personal Portfolio](https://i.ibb.co/qFFrhBz/personal-portfolio.png)
+
 
 ## Objective
 
@@ -15,6 +15,7 @@ Different technologies used to implement this personal portfolio website.
  - JavaScript
  - Tailwindcss 
  - Flowbit Tailwind Library
+ - Fontawesome Icons
 
 ### Tools
 
@@ -22,7 +23,7 @@ Different technologies used to implement this personal portfolio website.
  - vscode
 
 ## How To Install & Run 
-Step 1: Clone project `clone https://github.com/nchdatta/personal-portfolio`\
+Step 1: Clone project `git clone https://github.com/nchdatta/personal-portfolio`\
 Step 2: Locate to Project folder\
 Step 3: Run command `npm i` on terminal\
 Step 4: Run command `npm run dev` or `yarn dev`\
